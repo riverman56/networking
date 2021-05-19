@@ -1,0 +1,10 @@
+[package]
+name = "networking"
+author = "River Constantino"
+content_root = "src/networking"
+version = "1.0.0"
+license = "MIT"
+dependencies_root = "src/networking"
+
+[dependencies]
+Promise = "https://github.com/riverman56/lua-promise"

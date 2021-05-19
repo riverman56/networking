@@ -1,0 +1,11 @@
+{
+    "name": "networking",
+    "tree": {
+      "$className": "DataModel",
+  
+      "ReplicatedStorage": {
+        "$className": "ReplicatedStorage",
+        "$path": "src"
+      }
+    }
+  }
