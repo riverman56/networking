@@ -1,6 +1,6 @@
 local RunService = game:GetService("RunService")
 
-local Promise = require(script.Parent.Promise)
+local Promise = require(script.Parent.Parent.Promise)
 local findRemote = require(script.Parent.Utility.findRemote)
 
 local function request(options: table)
