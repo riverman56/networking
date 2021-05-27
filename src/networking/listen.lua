@@ -3,7 +3,7 @@ local RunService = game:GetService("RunService")
 local createRemote = require(script.Parent.Utility.createRemote)
 local findRemote = require(script.Parent.Utility.findRemote)
 
-local function listen(_, topic: string, methods: table, callback: () -> any)
+local function listen(topic: string, methods: table, callback: () -> any)
     assert(RunService:IsServer(), "Listeners may only be created on the server.")
 
     assert(topic, "You must provide a topic string.")

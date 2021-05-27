@@ -3,7 +3,7 @@ local RunService = game:GetService("RunService")
 local Promise = require(script.Parent.Promise)
 local findRemote = require(script.Parent.Utility.findRemote)
 
-local function request(_, options: table)
+local function request(options: table)
     assert(RunService:IsClient(), "Requests may only be served from the client.")
 
     local promise = Promise.new(function(resolve)
